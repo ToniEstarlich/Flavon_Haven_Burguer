@@ -1,0 +1,86 @@
+/*MENU*/
+#section1 {
+    position: relative;
+    color: #fcfcfc;
+    text-shadow: 2px 2px 2px #3d3d3d;
+    background-image: linear-gradient(to bottom , #3d3d3d, #A2B814 );
+}
+#section2 {
+    color: #fcfcfc;
+    text-shadow: 2px 2px 2px #3d3d3d;
+    background-color: #7b7b7b;
+    background-image: linear-gradient(to bottom, #A2B814, #217962 );
+}
+#section3 {
+    color: #fcfcfc;
+    text-shadow: 2px 2px 2px #3d3d3d;
+    background-color: #A2B814;
+    background-image: linear-gradient(to bottom, #217962,  #195550 );
+}
+#section4 {
+    color: #fcfcfc;
+    text-shadow: 2px 2px 2px #3d3d3d;
+    background-color: #a9a2a7;
+    background-image: linear-gradient(to bottom, #195550 ,#182c4a );
+}
+#section5 {
+    color: #fcfcfc;
+    text-shadow: 2px 2px 2px #3d3d3d;
+    background-color: #A2B814;
+    background-image: linear-gradient(to bottom, #182c4a , #36184a);
+}
+#section41 {
+    color: #fcfcfc;
+    text-shadow: 2px 2px 2px #3d3d3d;
+    background-color: #F7D4EC;
+    background-image: linear-gradient(to right, #340d47 , #F7D4EC);
+}
+#section42 {
+    color: #fcfcfc;
+    text-shadow: 2px 2px 2px #3d3d3d;
+    background-color: #AE0D7A;
+    background-image: linear-gradient(to right, #AE0D7A , #f9f889);
+}
+
+/*card menu*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    align-items: center;
+    background: none;
+    border-radius: 30px;
+    margin-top: 2%;
+  }
+  
+  .price {
+    color: #60aa3b;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: rgb(82, 82, 82);
+    background-color: #affe4f;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 30px;
+  }
+  .card button:hover {
+    opacity: 0.5;
+  }
+
+  .modal-content {
+    
+    background-image: linear-gradient(to top,#3d3d3d, #3d3d3d, #8e8e8d );
+    border-radius: 30px;
+  }
+/*End card menu*/
+
+/*END MENU*/
