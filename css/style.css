@@ -14,6 +14,7 @@ h1, h3, .nav-link {
 b {
     color:  #9fff40 !important;
 }
+
 p {
     font-size: 150%;
 }
@@ -51,6 +52,10 @@ p {
 /*End nav*/
 
 /*about*/
+#About {
+    margin-top: 0%;
+    background-color: #3a3a3a;
+}
 /*End about*/
 
 /*footer*//*End footer*/
