@@ -1,0 +1,56 @@
+/*body*/
+body {
+    font-family: Garamond, serif;
+    color: #f6f6f6;
+}
+h1, h3, .nav-link {
+    font-family: Garamond, serif;
+}
+
+.material-symbols-outlined 
+{
+ color:  #9fff40;
+}
+b {
+    color:  #9fff40 !important;
+}
+p {
+    font-size: 150%;
+}
+/*End body*/
+
+/*header*/
+/* video background */
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+#Home{
+    background-color: #f9f9f9;
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    text-shadow: 2px 2px 2px#3a3a3a;
+    font-size: 150%;
+}
+#Welcome {
+    margin-top: 10%;
+}
+/*End header*/
+
+/*nav*/
+.nav-link {
+    font-size: 150%;
+}
+/*End nav*/
+
+/*about*/
+/*End about*/
+
+/*footer*//*End footer*/
