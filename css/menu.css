@@ -1,4 +1,13 @@
+/*hero menu*/
+.hero-menu {
+  background-image: url(../Pictures/burguer-green.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*Endo hero menu*/
+
 /*MENU*/
+
 #section1 {
     position: relative;
     color: #fcfcfc;
