@@ -85,8 +85,7 @@ p {
 .testimonials {
     background: linear-gradient(to bottom, #000428, #004683);
     animation: background-color 50s; 
-    padding: 80px;
-    height: 100%;
+    padding: 80px; 
     text-align: center;
 }
 
@@ -186,6 +185,55 @@ border-bottom: 1px solid #999; */
     }
 }
 /*End Testimonials*/
+
+/*about the expansion  section*/
+.Imagen_world {
+    background-color: #3d3d3d;
+    color: #f9f9f9;
+    align-content: center;
+    padding: 80px;
+    text-align: center;
+}
+.city {
+    text-decoration: underline;
+}
+.New_york{
+    background-image: url("../Pictures/Newyork.png");
+    background-repeat: no-repeat;
+    background-size: 200px 300px;
+    height: auto;
+}
+.San_Francisco {
+    background-image: url("../Pictures/Sanfrancisco.png");
+    background-repeat: no-repeat;
+    background-size: 200px 300px;
+}
+
+.Paris {
+    background-image: url("../Pictures/Paris.png");
+    background-repeat: no-repeat;
+    background-size: 200px 300px;
+}
+
+.London {
+    background-image: url("../Pictures/London.png");
+    background-repeat: no-repeat;
+    background-size: 200px 300px;
+}
+
+.New_york, .San_Francisco, .London, .Paris {
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.New_york:hover, .San_Francisco:hover, .London:hover, .Paris:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(360deg);
+}
+
+
+
+/*end of expansion section*/
 
 /*Contact form*/
 #Contact {

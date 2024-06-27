@@ -1,8 +1,12 @@
 /*hero menu*/
-.hero-menu {
+.header-menu {
   background-image: url(../Pictures/burguer-green.png);
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 80px;
+  text-align: center;
+  color:white;
+  font-size: 40px;
 }
 /*Endo hero menu*/
 
