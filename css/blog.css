@@ -1,6 +1,28 @@
+/*body*/
+body {
+    font-family: Garamond, serif;
+    color: #224726;
+}
+h1, h3, .nav-link {
+    font-family: Garamond, serif;
+}
+
+.material-symbols-outlined 
+{
+ color:  #9fff40;
+}
+b {
+    color:  #9fff40 !important;
+}
+
+p {
+    font-size: 120%;
+}
+/*End body*/
+
 /*hero menu*/
 .header-menu {
-    background-image: url(../Pictures/burguer-green.png);
+    background-image: url(../Pictures/green_restaurant.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 80px;
@@ -9,6 +31,77 @@
     font-size: 40px;
   }
   /*Endo hero menu*/
+
+  /*nav of blog*/
+  .nav-text {
+    font-size: 150%;
+  }
+
+  .icon {
+    
+    color: white;
+  }
+  
+   .icon {
+    padding: 30px;
+    font-size: 25px;
+    width: 30px;
+  }
+
+  .icon:hover {
+    margin-right: 5px;
+	font-size:60px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+    color: #9fff40;;
+}
+
+  /*End of nav blog*/
+
+  /*The blog*/
+  .title {
+    font-size: 340%;
+    color: #3ec14b;
+  }
+
+  .responsive {
+    box-shadow: 4px 4px 2px  rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: auto;
+    margin-bottom: 5%;
+  }
+
+  /*AD*/
+  #myVideo {
+    right: 0;
+    bottom: 0;
+  }
+  
+  .content {
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 80%;
+    padding: 10px;
+  }
+  
+  #myBtn {
+    width: 100px;
+    font-size: 18x;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+  /*End of AD*/
+  /*End of the blog*/
 
   /*footer*/
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
